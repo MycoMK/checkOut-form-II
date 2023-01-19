@@ -11,12 +11,26 @@
 // }
 // document.getElementById("4").style.color ="red"
 
-document.getElementsByTagName('h1')[0].innerHTML = 'LETSSS GOOOOO!!!!!';
+// document.getElementsByTagName('h1')[0].innerHTML = 'LETSSS GOOOOO!!!!!';
+// for(i=0; i<10; i++){
+//     let element = document.createElement("p")
+//     let text = document.createTextNode("This is a New paragraph");
+//     element.appendChild(text)
+//     document.body.appendChild(element)
+    
+// }
 
-let element = document.createElement("p")
-let text = document.createTextNode("This is a New paragraph");
-element.appendChild(text)
-document.body.appendChild(element)
 
 
+document.getElementsByTagName("p")[0].innerHTML="come lets go";
+ for(i= 0; i<10; i++){
+    
+     let element = document.createElement("p")
+     let text = document.createTextNode("This is the way it's supposed to be");
 
+     element.appendChild(text)
+     document.body.appendChild(element)
+     element.id = String(i)
+ }
+
+ document.getElementById("4").style.color = "red";

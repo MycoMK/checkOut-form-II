@@ -22,26 +22,37 @@
 
 
 
-// document.getElementsByTagName("p")[0].innerHTML="come lets go";
-//  for(i= 0; i<10; i++){
+document.getElementsByTagName("p")[0].innerHTML="come lets go";
+ for(i= 0; i<10; i++){
     
-//      let element = document.createElement("p")
-//      let text = document.createTextNode("This is the way it's supposed to be");
+     let element = document.createElement("p")
+     let text = document.createTextNode("This is the way it's supposed to be");
 
-//      element.appendChild(text)
-//      document.body.appendChild(element)
-//      element.id = String(i)
-//  }
+     element.appendChild(text)
+     document.body.appendChild(element)
+     element.id = String(i)
+ }
 
-//  document.getElementById("4").style.color = "red";
+ document.getElementById("4").style.color = "red";
 
 
-document.getElementsByTagName("p")[0].innerHTML="Web frontEnd fonts and colors";
+// document.getElementsByTagName("p")[0].innerHTML="Web frontEnd fonts and colors";
 
-for(i=0; i<20; i++){
-    let element = document.createElement("p")
-    let text = document.createTextNode("Let go champ, you gat this");
+// for(i=0; i<20; i++){
+//     let element = document.createElement("p")
+//     let text = document.createTextNode("Let's go champ, you gat this");
 
-    element.appendChild(text)
-    element.body.appendChild(element)
-}
+//     element.appendChild(text)
+//     element.body.appendChild(element)
+// }     
+
+
+let myDiv = document.querySelector("div")
+
+myDiv.addEventListener("mouseover",()=>{
+   myDiv.style.backgroundImage = `url("image5.jpeg")`;
+})
+
+myDiv.addEventListener("mouseleave",()=>{
+    myDiv.style.backgroundImage = null;
+ })

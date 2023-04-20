@@ -1,0 +1,14 @@
+body{
+    
+    text-align:center ;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    border: 1px, solid, brown ;
+    display: inline-block;
+    background-image: url("imgae1.jpeg");
+    background-repeat: no-repeat;
+}
+

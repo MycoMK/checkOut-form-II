@@ -47,12 +47,11 @@ document.getElementsByTagName("p")[0].innerHTML="come lets go";
 // }     
 
 
-let myDiv = document.querySelector("div")
-
+let myDiv = document.querySelector("iv")
 myDiv.addEventListener("mouseover",()=>{
-   myDiv.style.backgroundImage = `url("image5.jpeg")`;
+    myDiv.style.backgoundImage = `url("image5.jpeg")`
 })
 
 myDiv.addEventListener("mouseleave",()=>{
-    myDiv.style.backgroundImage = null;
- })
+    myDiv.style.backgoundImage = null;
+})
